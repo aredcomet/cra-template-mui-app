@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-mui-app",
+  "version": "1.1.2",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "material-ui",
+    "mui"
+  ],
+  "description": "Template built on create-react-app with material ui and react router deps.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aredcomet/cra-template-mui-app.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/aredcomet/cra-template-mui-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
