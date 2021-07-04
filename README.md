@@ -1,10 +1,26 @@
-# cra-template
+# cra-template-mui-app
 
-This is the official base template for [Create React App](https://github.com/facebook/create-react-app).
+This template is built on the official base template for [Create React App](https://github.com/facebook/create-react-app)
+with material ui dependencies and simple directory structure.
 
-If you don't specify a template (for example, `--template typescript`), this template will be used by default.
+### Dependencies
 
-For more information, please refer to:
+- @fontsource/roboto
+- @material-ui/core
+- @material-ui/icons
+- axios
+- clsx
+- prop-types
+- react-router-dom
+- react-hook-form
+- react-helmet
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+This templates provides few more pages/components
+
+- Login page using react-hook-form
+- Layouts (auth layout used for login page)
+- utils to use as headers in axios requests
+- Page components using react-helmet (makes it easier to change page title from any page)
+- routewrapper to wrap pages inside a layout structure
+
+![Directory Structure](https://github.com/aredcomet/cra-template-mui-app/blob/master/screenshots/directory_structure.png)
